@@ -1,3 +1,4 @@
+'use strict';
 const uuid = require('uuid');
 
 // this module provides volatile storage, using a `ShoppingList`
@@ -55,6 +56,7 @@ function createShoppingList() {
 
 const Recipes = {
   create: function(name, ingredients) {
+
     console.log('Creating a new recipe');
     const item = {
       name: name,
